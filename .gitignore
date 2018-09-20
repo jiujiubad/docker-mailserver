@@ -10,3 +10,11 @@ test/config/postfix-accounts.cf
 test/config/letsencrypt/mail.my-domain.com/combined.pem
 test/onedir
 config/opendkim/
+
+/tmp/*
+!/tmp/.keep
+!/tmp/config/ssl/*
+!/tmp/config/postfix-accounts.cf.example
+
+/.vagrant
+ubuntu-xenial-16.04-cloudimg-console.log
